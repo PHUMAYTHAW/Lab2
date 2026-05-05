@@ -1,0 +1,7 @@
+def display_main_menu():
+    print("Enter some numbers spearated by commas (eg.5,67,32)")
+display_main_menu()
+def get_user_input():
+    num=input()
+    numlist=num.splist(",")
+    print(numlist)
